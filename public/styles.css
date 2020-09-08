@@ -1,4 +1,7 @@
-form {
+body{
+    width: 100%;
+}
+/* form {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -20,3 +23,6 @@ header{
     display: flex;
     flex-direction: row;
 }
+body{
+    background-color: blue;
+} */
