@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+    <%- include('../layout/header')%>
+
+    <main>
+        <p>BOOKS</p>
+        <p>No. of books <%= bookCount%></p>
+
+        <button><a href="/searches/new">Search for Books</a></button>
+        <% booksArr.forEach(item =>{ %>
+        <div>
+            <img src="<%= item.image_url %>" alt="">
+            <h2><%= item.title %></h2>
+            <button>
+                <a href="/getBook/<%= item.id %>">Details</a>
+            </button>
+        </div>
+        <% })%>
+    </main>
+
+</body>
+
+</html>

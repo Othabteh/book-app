@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        .div {
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 6px 0;
+        }
+
+        #myLinks {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="mobile-container">
+
+
+        <div class="topnav">
+            <a href="#" class="active">Best Books!</a>
+            <div id="myLinks">
+                <a href="page/searches/new">Search API</a>
+                <div id="menu">
+                    <div class="div"></div>
+                    <div class="div"></div>
+                    <div class="div"></div>
+                </div>
+
+
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                }
+            </script>
+
+</body>
+
+</html>

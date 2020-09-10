@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+}
+/* form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+form div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: blue;
+} */
